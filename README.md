@@ -14,15 +14,15 @@ Keep this page open and navigate to the [Particle Console](https://console.parti
 
 Click on `Integrations` from the left navigation menu, then click on `+ ADD NEW INTEGRATION` button located top-right on the console and choose the `Webhook` option.
 
-#### **Step 1:** URL and Request Format
+#### :one: **Step 1: URL and Request Format**
 
 **Paste the URL** and choose **`JSON`** for the Request Format options.
 
-> **Info:** Set the **Device** option to **`Any`** to enable automatic syncing of all devices with Qubitro.
+<span style="color:green;">**Tip:** Set the **Device** option to **`Any`** to enable automatic syncing of all devices with Qubitro.</span>
 
 ![Basics](images/particle_qubitro_integration_basics.webp)
 
-#### **Step 2:** JSON Data Configuration
+#### :two: **Step 2: JSON Data Configuration**
 
 **Choose `Custom`** for the JSON Data configuration and paste the following configuration.
 
@@ -37,7 +37,7 @@ Example:
 
 ![Request Data Configuration](images/particle_qubitro_integration_advance_data.webp)
 
-#### **Step 3:** HTTP Headers
+#### :three: **Step 3: HTTP Headers**
 
 **Add HTTP Headers** by copying and pasting each key and their values from the page you navigated in the previous step on Qubitro Portal.
 
@@ -48,7 +48,7 @@ Example:
 
 ![Request Headers Configuration](images/particle_qubitro_integration_advance_headers.webp)
 
-#### **Step 4:** Create Webhook
+#### :four: **Step 4: Create Webhook**
 
 **Click on `Create Webhook`** button and go back to the Qubitro Portal.
 
