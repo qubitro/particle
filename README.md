@@ -18,7 +18,7 @@ Click on `Integrations` from the left navigation menu, then click on `+ ADD NEW 
 
     > **Info:** Set the **Device** option to **`Any`** to enable automatic syncing of all devices with Qubitro.
 
-![Basics](images/particle_qubitro_integration_basics.png)
+![Basics](images/particle_qubitro_integration_basics.webp)
 
 2. Choose `Custom` for the JSON Data configuration and paste the following configuration.
 
@@ -31,7 +31,7 @@ Click on `Integrations` from the left navigation menu, then click on `+ ADD NEW 
 
     Example:
 
-    ![Request Data Configuration](images/particle_qubitro_integration_advance_data.png)
+    ![Request Data Configuration](images/particle_qubitro_integration_advance_data.webp)
 
 3. Add HTTP Headers by copying and pasting each key and their values from the page you navigated in the previous step on Qubitro Portal.
 
@@ -40,7 +40,7 @@ Click on `Integrations` from the left navigation menu, then click on `+ ADD NEW 
 
     Example:
 
-    ![Request Headers Configuration](images/particle_qubitro_integration_advance_headers.png)
+    ![Request Headers Configuration](images/particle_qubitro_integration_advance_headers.webp)
 
 4. Click on `Create Webhook` button and go back to the Qubitro Portal.
 
@@ -52,7 +52,7 @@ Click on the `Go to project` button and then the `Refresh` button to verify that
 
 Then, navigate to the device and click on the `Cloud Storage` tab to verify the incoming data.
 
-![Data Table](images/particle_qubitro_integration_data_table.png)
+![Data Table](images/particle_qubitro_integration_data_table.webp)
 
 ### (Optional) Customize device information
 
