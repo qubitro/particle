@@ -4,7 +4,7 @@ Qubitro has no-code source integration support for Particle Cloud. You can learn
 
 ## Creating the Integration
 
-To get the required credentials, choose a project from the list, then, click on the `New source` button and click on `Particle` in the list.
+To get the required credentials, choose a project from the list on Qubitro Portal, then, click on the `New source` button and click on `Particle` in the list.
 
 ![Credentials](images/particle_qubitro_integration_creds.png)
 
