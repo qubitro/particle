@@ -16,7 +16,7 @@ Click on `Integrations` from the left navigation menu, then click on `+ ADD NEW 
 
 **- Step (1)** **URL and Request Format**
 
-**Paste the URL** and choose **`JSON`** for the Request Format options.
+Paste the URL** and choose **`JSON`** for the Request Format options.
 
 **🔵 Tip:** Set the **Device** option to **`Any`** to enable automatic syncing of all devices with Qubitro.
 
@@ -24,7 +24,7 @@ Click on `Integrations` from the left navigation menu, then click on `+ ADD NEW 
 
 **- Step (2)** **JSON Data Configuration**
 
-**Choose `Custom`** for the JSON Data configuration and paste the following configuration.
+Choose `Custom`** for the JSON Data configuration and paste the following configuration.
 
 ```json
 {
@@ -39,7 +39,7 @@ Example:
 
 **- Step (3)** **HTTP Headers**
 
-**Add HTTP Headers** by copying and pasting each key and their values from the page you navigated in the previous step on Qubitro Portal.
+Add HTTP Headers** by copying and pasting each key and their values from the page you navigated in the previous step on Qubitro Portal.
 
 Header Name: `projectId` - Header Value: `<PROJECT_ID>`  
 Header Name: `webhookSigningKey` - Header Value: `<WEBHOOK_SIGNING_KEY>`
@@ -50,7 +50,7 @@ Example:
 
 **- Step (4)** **Create Webhook**
 
-**Click on `Create Webhook`** button and go back to the Qubitro Portal.
+Click on `Create Webhook`** button and go back to the Qubitro Portal.
 
 ### Verify integration
 
