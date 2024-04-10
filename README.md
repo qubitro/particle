@@ -64,4 +64,4 @@ An example device configuration:
 
 ---
 
-For enterprise support or further assistance, contact Qubitro support.
+For enterprise support or further assistance, visit [Qubitro support](https://www.qubitro.com/resources/support) options.
