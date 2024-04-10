@@ -14,35 +14,43 @@ Keep this page open and navigate to the [Particle Console](https://console.parti
 
 Click on `Integrations` from the left navigation menu, then click on `+ ADD NEW INTEGRATION` button located top-right on the console and choose the `Webhook` option.
 
-1. Paste the URL and choose `JSON` for the Request Format options.
+#### **Step 1:** URL and Request Format
 
-    > **Info:** Set the **Device** option to **`Any`** to enable automatic syncing of all devices with Qubitro.
+**Paste the URL** and choose **`JSON`** for the Request Format options.
+
+> **Info:** Set the **Device** option to **`Any`** to enable automatic syncing of all devices with Qubitro.
 
 ![Basics](images/particle_qubitro_integration_basics.webp)
 
-2. Choose `Custom` for the JSON Data configuration and paste the following configuration.
+#### **Step 2:** JSON Data Configuration
 
-    ```json
-    {
-      "data": { "{{{PARTICLE_EVENT_NAME}}}": "{{{PARTICLE_EVENT_VALUE}}}"},
-      "coreid": "{{{PARTICLE_DEVICE_ID}}}"
-    }
-    ```
+**Choose `Custom`** for the JSON Data configuration and paste the following configuration.
 
-    Example:
+```json
+{
+  "data": { "{{{PARTICLE_EVENT_NAME}}}": "{{{PARTICLE_EVENT_VALUE}}}"},
+  "coreid": "{{{PARTICLE_DEVICE_ID}}}"
+}
+```
 
-    ![Request Data Configuration](images/particle_qubitro_integration_advance_data.webp)
+Example:
 
-3. Add HTTP Headers by copying and pasting each key and their values from the page you navigated in the previous step on Qubitro Portal.
+![Request Data Configuration](images/particle_qubitro_integration_advance_data.webp)
 
-    Header Name: `projectId` - Header Value: `<PROJECT_ID>`  
-    Header Name: `webhookSigningKey` - Header Value: `<WEBHOOK_SIGNING_KEY>`
+#### **Step 3:** HTTP Headers
 
-    Example:
+**Add HTTP Headers** by copying and pasting each key and their values from the page you navigated in the previous step on Qubitro Portal.
 
-    ![Request Headers Configuration](images/particle_qubitro_integration_advance_headers.webp)
+Header Name: `projectId` - Header Value: `<PROJECT_ID>`  
+Header Name: `webhookSigningKey` - Header Value: `<WEBHOOK_SIGNING_KEY>`
 
-4. Click on `Create Webhook` button and go back to the Qubitro Portal.
+Example:
+
+![Request Headers Configuration](images/particle_qubitro_integration_advance_headers.webp)
+
+#### **Step 4:** Create Webhook
+
+**Click on `Create Webhook`** button and go back to the Qubitro Portal.
 
 ### Verify integration
 
